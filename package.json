@@ -1,0 +1,23 @@
+{
+  "name": "playwright_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test --project=chromium",
+    "webTests":"npx playwright test --project=chromium --grep @Web",
+    "APITests":"npx playwright test --project=chromium --grep @API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
+    "allure-playwright": "^3.2.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "xlsx": "^0.18.5"
+  }
+}

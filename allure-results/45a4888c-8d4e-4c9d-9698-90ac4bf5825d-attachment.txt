@@ -1,0 +1,14 @@
+[ 'ZARA COAT 3', 'ADIDAS ORIGINAL', 'IPHONE 13 PRO' ]
+67b8b270c019fb1ad605c79a
+[
+  '67b8b270c019fb1ad605c79a',
+  '67b8b269c019fb1ad605c775',
+  '67b8b261c019fb1ad605c741',
+  '67b8b258c019fb1ad605c6fe',
+  '67b8b258c019fb1ad605c6f6',
+  '67b8af67c019fb1ad605b95d',
+  '67b8af61c019fb1ad605b929',
+  '67b8af5bc019fb1ad605b8e3'
+]
+8
+67b8b270c019fb1ad605c79a
