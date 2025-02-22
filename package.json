@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "regression": "npx playwright test --project=chromium",
-    "webTests":"npx playwright test --project=chromium --grep @Web",
-    "APITests":"npx playwright test --project=chromium --grep @API"
+    "webTests": "npx playwright test --project=chromium --grep @Web",
+    "APITests": "npx playwright test --project=chromium --grep @API"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.4",
     "allure-playwright": "^3.2.0"
+    
   },
   "dependencies": {
     "exceljs": "^4.4.0",
