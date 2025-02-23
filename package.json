@@ -6,7 +6,7 @@
     "regression": "npx playwright test --project=chromium",
     "webTests": "npx playwright test --project=chromium --grep @Web",
     "APITests": "npx playwright test --project=chromium --grep @API",
-    "CucumberRegression": "npx @cucumber/cucumber --config cucumber.js --tags='@Regression' --retry 1 --exit --format html:cucumber-report.html"
+    "CucumberRegression": "npx @cucumber/cucumber --config cucumber.js --retry 1 --exit --format html:cucumber-report.html"
   },
   "keywords": [],
   "author": "",
