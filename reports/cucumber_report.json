@@ -1,0 +1,241 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "e2e_ecommercevalidations;placing-the-order-for-different-products",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Placing the Order for different products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1520820300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user login to Ecommerce application with \"abtripuranjali@gmail.com\" and \"Anjali@270199#\"",
+            "match": {
+              "location": "stepDefinitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2441217399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user adds \"ZARA COAT 3\" to the cart and verify item is displayed in the cart",
+            "match": {
+              "location": "stepDefinitions\\steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1948192100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enters valid details like cvv code, Country \"900\",\"ind\",\" India\", \"abtripuranjali@gmail.com\" in the checkout page and place an order",
+            "match": {
+              "location": "stepDefinitions\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740831898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify if the order is present in the order history page",
+            "match": {
+              "location": "stepDefinitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508473899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "e2e_ecommercevalidations;placing-the-order-for-different-products",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Placing the Order for different products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 857131800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user login to Ecommerce application with \"abtripuranjali@gmail.com\" and \"Anjali@270199#\"",
+            "match": {
+              "location": "stepDefinitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2311918799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user adds \"ADIDAS ORIGINAL\" to the cart and verify item is displayed in the cart",
+            "match": {
+              "location": "stepDefinitions\\steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1886940399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enters valid details like cvv code, Country \"800\",\"ind\",\" India\", \"abtripuranjali@gmail.com\" in the checkout page and place an order",
+            "match": {
+              "location": "stepDefinitions\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 676028799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify if the order is present in the order history page",
+            "match": {
+              "location": "stepDefinitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417394999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "e2e_ecommercevalidations;placing-the-order-for-different-products",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Placing the Order for different products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 882181200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user login to Ecommerce application with \"abtripuranjali@gmail.com\" and \"Anjali@270199#\"",
+            "match": {
+              "location": "stepDefinitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2456246998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user adds \"IPHONE 13 PRO\" to the cart and verify item is displayed in the cart",
+            "match": {
+              "location": "stepDefinitions\\steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1895848499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enters valid details like cvv code, Country \"700\",\"ind\",\" India\", \"abtripuranjali@gmail.com\" in the checkout page and place an order",
+            "match": {
+              "location": "stepDefinitions\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 676856298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify if the order is present in the order history page",
+            "match": {
+              "location": "stepDefinitions\\steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 463279800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "e2e_ecommercevalidations",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "E2E_EcommerceValidations",
+    "tags": [],
+    "uri": "features\\Ecommerce.feature"
+  }
+]
